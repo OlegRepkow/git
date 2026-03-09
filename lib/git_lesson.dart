@@ -1,6 +1,5 @@
 void main() {
   final user = GitUser().calculate();
-
   print(user);
 }
 
