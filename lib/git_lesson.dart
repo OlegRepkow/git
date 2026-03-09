@@ -6,6 +6,6 @@ void main() {
 class GitUser {
   String calculate() {
     final range = 6 * 7;
-    return 'User for $range days';
+    return 'Git user for $range days';
   }
 }
