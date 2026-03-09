@@ -1,10 +1,12 @@
 void main() {
-  final range = GitUser().calculate();
-  print('User for $range days');
+  final user = GitUser().calculate();
+
+  print(user);
 }
 
 class GitUser {
-  int calculate() {
-    return 6 * 7;
+  String calculate() {
+    final range = 6 * 7;
+    return 'User for $range days';
   }
 }
